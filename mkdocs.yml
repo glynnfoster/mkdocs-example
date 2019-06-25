@@ -1,0 +1,35 @@
+site_name: Mkdocs Example
+
+nav:
+- 'Foobar': 'index.md'
+
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  font:
+    text: 'Open Sans'
+    code: 'Roboto Mono'
+
+markdown_extensions:
+    - admonition
+    - pymdownx.arithmatex:
+        generic: True
+    - toc:
+        permalink: True
+
+plugins:
+  - search
+  - awesome-pages:
+      collapse_single_pages: true
+
+# It makes sense to use KaTeX instead of MathJax since it's supported with Gitlab. It also
+# conveniently is a lot faster in terms of rendering
+
+extra_javascript:
+    - 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.js'
+    - 'js/katex.js'
+    - 'js/extra.js'
+
+extra_css:
+    - 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.css'
+    - 'stylesheets/extra.css'

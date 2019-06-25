@@ -1,0 +1,42 @@
+.md-header {
+  background-color: #004a75;
+}
+
+@media only screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title--site {
+    background-color: #004a75 !important;
+  }
+}
+
+.md-sidebar md-sidebar--primary {
+  background-color: #004a75;
+}
+
+.md-footer-nav {
+  background-color: #004a75;
+}
+
+@media only screen {
+.md-nav--primary md-nav__title--site {
+    background-color: #004a75;
+  }
+}
+.md-typeset a {
+  font-color: #004a75;
+}
+
+.md-typeset img {
+    width: 65%;
+}
+
+.md-typeset em {
+    width: 80%;
+    text-align: center;
+}
+
+.md-typeset img, em {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90%;
+}

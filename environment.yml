@@ -1,0 +1,15 @@
+name: platform-release-notes
+dependencies:
+  - pip
+  - python>=3.7
+  - sphinx
+  - jinja2
+  - setuptools
+  - pip:
+    - markdown
+    - mkdocs
+    - mkdocs-material
+    - pymdown-extensions
+    - pyyaml
+    - tornado
+    - mkdocs-awesome-pages-plugin
